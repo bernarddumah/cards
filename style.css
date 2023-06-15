@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 20rem;
+  width: 20rem;
+}
+h1 {
+  padding-bottom: 2px;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  padding: 0rem 2rem;
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+  background-color: blanchedalmond;
+  /* height: 155rem; */
+}
+
+.boxs-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  padding-left: 2rem;
+  height: 1700px;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  justify-content: center;
+  display: flex;
+}
+
+/* span{
+  color:red;
+}    */
+
+a {
+  background-color: rgb(0, 26, 255);
+  padding: 2px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  -webkit-text-stroke-width: 0.5px;
+  color: rgb(255, 255, 255);
+  margin: 0.5rem;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  height: 6rem;
+  text-align: center;
+}
+
+.title {
+  color: rgb(0, 88, 27);
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+}
+
+#span1 {
+  color: blue;
+}
+
+button {
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  border-width: 0rem;
+  padding: 0.3rem;
+}
+.header {
+  text-align: center;
+  margin-top: 2rem;
+  /* border: 2px solid black; */
+  justify-content: center;
+  margin-left: 30rem;
+  color: rgb(0, 27, 137);
+}
+
+button:hover{
+    color: rgb(76, 174, 255);
+}
